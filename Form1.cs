@@ -183,9 +183,14 @@ namespace LiBr
         //输入框只能输入数字0-9和退格以及小数点和delete。
         private void OnlyNumbles(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == (char)Keys.Back | e.KeyChar == 46 | e.KeyChar == (char)Keys.Delete)  // 检查输入的字符是否退格，delete或者小数点
+            if (e.KeyChar == (char)Keys.Back  | e.KeyChar == (char)Keys.Delete)  // 检查输入的字符是否退格，delete
             {
-                e.Handled = false;
+                e.Handled = false;//处理输入
+                if (e.KeyChar == '.' && (((TextBox)sender).Text.IndexOf(".") != -1 | ((TextBox)sender).Text.Length == 0))
+                //判断输入框已经有小数点或是为空
+                {
+                    e.Handled = true;//符合条件，屏蔽输入
+                }
             }
             else
             {
