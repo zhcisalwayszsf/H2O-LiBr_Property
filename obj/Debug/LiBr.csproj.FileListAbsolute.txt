@@ -1,0 +1,10 @@
+G:\MyProgram\LiBr_H2O\LiBr\bin\Debug\LiBr.exe.config
+G:\MyProgram\LiBr_H2O\LiBr\bin\Debug\LiBr.exe
+G:\MyProgram\LiBr_H2O\LiBr\bin\Debug\LiBr.pdb
+G:\MyProgram\LiBr_H2O\LiBr\obj\Debug\LiBr.csproj.AssemblyReference.cache
+G:\MyProgram\LiBr_H2O\LiBr\obj\Debug\LiBr.Form1.resources
+G:\MyProgram\LiBr_H2O\LiBr\obj\Debug\LiBr.Properties.Resources.resources
+G:\MyProgram\LiBr_H2O\LiBr\obj\Debug\LiBr.csproj.GenerateResource.cache
+G:\MyProgram\LiBr_H2O\LiBr\obj\Debug\LiBr.csproj.CoreCompileInputs.cache
+G:\MyProgram\LiBr_H2O\LiBr\obj\Debug\LiBr.exe
+G:\MyProgram\LiBr_H2O\LiBr\obj\Debug\LiBr.pdb
